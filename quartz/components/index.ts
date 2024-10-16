@@ -21,6 +21,9 @@ import RecentNotes from "./RecentNotes"
 import Breadcrumbs from "./Breadcrumbs"
 import Comments from "./Comments"
 
+import LinksHeader from "./LinksHeader"
+import TableOfContents2 from "./TableOfContents2"
+
 export {
   ArticleTitle,
   Content,
@@ -43,5 +46,8 @@ export {
   RecentNotes,
   NotFound,
   Breadcrumbs,
+  LinksHeader,
   Comments,
+
+  TableOfContents2,
 }

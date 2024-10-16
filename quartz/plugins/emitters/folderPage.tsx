@@ -21,11 +21,9 @@ import { write } from "./helpers"
 import { i18n } from "../../i18n"
 import DepGraph from "../../depgraph"
 
-interface FolderPageOptions extends FullPageLayout {
-  sort?: (f1: QuartzPluginData, f2: QuartzPluginData) => number
-}
-
-export const FolderPage: QuartzEmitterPlugin<Partial<FolderPageOptions>> = (userOpts) => {
+export const FolderPage: QuartzEmitterPlugin<
+  Partial<FullPageLayout> & { sort?: (f1: QuartzPluginData, f2: QuartzPluginData) => number }
+> = (userOpts) => {
   const opts: FullPageLayout = {
     ...sharedPageComponents,
     ...defaultListPageLayout,
