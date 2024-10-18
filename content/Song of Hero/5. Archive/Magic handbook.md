@@ -1,6 +1,19 @@
 ---
 title: A Comprehensive Guide to the Art of Magic
 type: book
+publisher: 
+author: 
+collaborator: 
+reviewed: 
+genres:
+  - textbook
+  - academic
+language:
+  - common
+format:
+  - book
+  - paper
+condition: 
 aliases:
   - magic handbook
   - magic guide
@@ -11,7 +24,7 @@ cssclasses:
   - publish
 draft: true
 created: 16/10/2024 - 05:57 PM
-updated: 18/10/2024 - 02:02 AM
+updated: 18/10/2024 - 02:30 PM
 encoded: Magic%20handbook.md
 link: 
 ---
