@@ -8,7 +8,7 @@ function Logo({ cfg, fileData, externalResources, displayClass }: QuartzComponen
 
   const baseDir = fileData.slug === "404" ? path : pathToRoot(fileData.slug!)
 
-  const logoPath = joinSegments(baseDir, "content/z-attachment/logo.png")
+  const logoPath = joinSegments(baseDir, "static/logo.png")
 
   return (
     <div class={classNames(displayClass, "logo logo-container")}>
