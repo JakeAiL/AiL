@@ -12,7 +12,7 @@ function Logo({ cfg, fileData, externalResources, displayClass }: QuartzComponen
 
   return (
     <div class={classNames(displayClass, "logo logo-container")}>
-      <img rel="icon" src={logo.png} class="logo logo-image" />
+      <img rel="icon" src={logoPath} class="logo logo-image" />
     </div>
   )
 }
