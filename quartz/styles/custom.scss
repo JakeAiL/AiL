@@ -1,1 +1,66 @@
 @use "./base.scss";
+@use "./variables.scss" as *;
+
+// Layout overrides
+.page {
+  & > #quartz-body {
+    --left-sidebar-height: 250px;
+    display: grid;
+    grid-template-columns: auto $sidePanelWidth;
+    grid-template-rows: var(--left-sidebar-height) auto;
+    grid-template-areas:
+      "grid-sidebar-left grid-sidebar-left"
+      "grid-center grid-sidebar-right";
+    @media all and ($tablet) {
+      grid-template-columns: auto $sidePanelWidth;
+      grid-template-rows: var(--left-sidebar-height) auto;
+      grid-template-areas:
+        "grid-sidebar-left grid-sidebar-left"
+        "grid-center grid-sidebar-right";
+    }
+    @media all and ($mobile) {
+      grid-template-columns: #{map-get($mobileGrid, templateColumns)};
+      grid-template-rows: #{map-get($mobileGrid, templateRows)};
+      grid-template-areas: #{map-get($mobileGrid, templateAreas)};
+    }
+
+    @media all and not ($mobile) {
+      padding: 0 2rem;
+      .sidebar {
+        &.left {
+          display: flex;
+          flex-direction: row;
+          width: 100%;
+          height: 100%;
+          position: unset;
+          // space content evenly, using full width
+          justify-content: space-between;
+        }
+        &.right {
+          padding: 0 2rem 2rem;
+          height: calc(100vh - var(--left-sidebar-height));
+        }
+      }
+      & .center {
+        grid-area: grid-center;
+        > article {
+          grid-area: unset;
+        }
+      }
+      & footer,
+      & header {
+        grid-area: unset;
+      }
+      // Logo styling
+      .logo {
+        height: 100%;
+        .logo-container {
+          display: auto;
+        }
+        .logo-image {
+          margin: 0 auto;
+        }
+      }
+    }
+  }
+}
