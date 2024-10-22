@@ -1,5 +1,5 @@
 ---
-{"title":null,"type":null,"aliases":null,"tags":["page/index","character","page"],"cssclasses":["paper","justified","cards","cards-cols-5"],"created":"20/10/2024 - 04:58 PM","updated":"2024-10-23T02:05","encoded":"Character%20Index.md","link":null,"publish":true,"path":"Song of Hero/2. Character/Character Index.md","permalink":"/song-of-hero/2-character/character-index/","PassFrontmatter":true}
+{"type":null,"aliases":null,"tags":["page/index","character","page"],"cssclasses":["paper","justified","cards","cards-cols-5"],"created":"2024-10-21T19:27","updated":"2024-10-23T02:37","encoded":"Character%20Index.md","link":null,"publish":true,"path":"Song of Hero/2. Character/Character Index.md","permalink":"/song-of-hero/2-character/character-index/","PassFrontmatter":true}
 ---
 
 
