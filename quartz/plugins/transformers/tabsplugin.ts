@@ -3,7 +3,7 @@ import { Root } from "mdast"
 import { visit } from "unist-util-visit"
 
 export const Plugin: QuartzTransformerPlugin = () => ({
-  name: "Plugin",
+  name: "TabsPlugin",
   markdownPlugins() {
     return [
       () => (tree: Root, _file) => {
