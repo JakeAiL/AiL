@@ -1,5 +1,5 @@
 ---
-{"title":"Homepage","created":"2024-10-21T19:30","updated":"2024-10-23T20:04","publish":true,"type":"index page","tags":["page","page/index"],"path":"index.md","permalink":"/index/","PassFrontmatter":true}
+{"title":"Homepage","created":"2024-10-21T19:30","updated":"2024-10-23T22:37","publish":true,"type":"index page","tags":["page","page/index"],"path":"index.md","permalink":"/index/","PassFrontmatter":true}
 ---
 
 hello there
@@ -8,7 +8,7 @@ hello there
 
 ```tabs
 tab: tab 1
-yolo
+yolo dam
 
 tab: tab 2
 hello there
