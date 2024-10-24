@@ -55,7 +55,7 @@ export const Plugin: QuartzTransformerPlugin = () => ({
                 buttons[i].style.backgroundColor = '#f8f8f8';
                 buttons[i].style.fontWeight = 'normal';
             }
-            buttons[tabNumber - 1].style.backgroundColor = 'white';
+            buttons[tabNumber - 1].style.backgroundColor = 'red';
             buttons[tabNumber - 1].style.fontWeight = 'bold';
         }
 
@@ -63,7 +63,8 @@ export const Plugin: QuartzTransformerPlugin = () => ({
         showTab(1);
     </script>
 </body>
-</html>: ${node.value}</p>`
+</html>
+</p>`
           }
         })
       },
