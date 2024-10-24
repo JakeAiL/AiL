@@ -11,57 +11,122 @@ export const Plugin: QuartzTransformerPlugin = () => ({
           if (node.lang === "tabs") {
             node.type = "html" as "code"
             node.value = `<p> 
-            <!DOCTYPE html>
-            <html lang="en">
-            <head>
-            <meta charset="UTF-8">
-            <meta name="viewport" content="width=device-width, initial-scale=1.0">
-            <title>Content Card with Tabs</title>
-            </head>
-            <body style="font-family: Arial, sans-serif; display: flex; justify-content: center; align-items: center; height: 100vh; margin: 0; background-color: #f0f0f0;">
-            <div style="width: 300px; background-color: white; border-radius: 8px; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);">
-              <div style="display: flex; border-bottom: 1px solid #e0e0e0;">
-                <button onclick="showTab(1)" style="flex: 1; padding: 10px; border: none; background-color: #f8f8f8; cursor: pointer; border-top-left-radius: 8px;">Tab 1</button>
-                <button onclick="showTab(2)" style="flex: 1; padding: 10px; border: none; background-color: #f8f8f8; cursor: pointer;">Tab 2</button>
-                <button onclick="showTab(3)" style="flex: 1; padding: 10px; border: none; background-color: #f8f8f8; cursor: pointer; border-top-right-radius: 8px;">Tab 3</button>
-            </div>
-            <div id="tab1" style="padding: 20px;">
-              <h2 style="margin-top: 0;">Tab 1 Content</h2>
-              <p>This is the content for Tab 1. You can put any information here.</p>
-            </div>
-            <div id="tab2" style="padding: 20px; display: none;">
-              <h2 style="margin-top: 0;">Tab 2 Content</h2>
-              <p>This is the content for Tab 2. It's currently hidden but will show when Tab 2 is clicked.</p>
-            </div>
-            <div id="tab3" style="padding: 20px; display: none;">
-              <h2 style="margin-top: 0;">Tab 3 Content</h2>
-              <p>This is the content for Tab 3. It's also hidden initially.</p>
-            </div>
-    </div>
-
-    <script>
-        function showTab(tabNumber) {
-            // Hide all tabs
-            document.getElementById('tab1').style.display = 'none';
-            document.getElementById('tab2').style.display = 'none';
-            document.getElementById('tab3').style.display = 'none';
-
-            // Show the selected tab
-            document.getElementById('tab' + tabNumber).style.display = 'block';
-
-            // Update button styles
-            const buttons = document.getElementsByTagName('button');
-            for (let i = 0; i < buttons.length; i++) {
-                buttons[i].style.backgroundColor = '#f8f8f8';
-                buttons[i].style.fontWeight = 'normal';
-            }
-            buttons[tabNumber - 1].style.backgroundColor = 'red';
-            buttons[tabNumber - 1].style.fontWeight = 'bold';
+         <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Obsidian Tabs to HTML</title>
+    <style>
+        .tab {
+            overflow: hidden;
+            border: 1px solid #ccc;
+            background-color: #f1f1f1;
         }
+        .tab button {
+            background-color: inherit;
+            float: left;
+            border: none;
+            outline: none;
+            cursor: pointer;
+            padding: 14px 16px;
+            transition: 0.3s;
+        }
+        .tab button:hover {
+            background-color: #ddd;
+        }
+        .tab button.active {
+            background-color: #ccc;
+        }
+        .tabcontent {
+            display: none;
+            padding: 6px 12px;
+            border: 1px solid #ccc;
+            border-top: none;
+        }
+    </style>
+</head>
+<body>
 
-        // Show the first tab by default
-        showTab(1);
-    </script>
+<div id="tabs" class="tab"></div>
+<div id="content"></div>
+
+<script>
+// Example input simulating Obsidian Tabs plugin format
+const input = `
+\`\`\`tabs
+tab: TAB ONE
+Tab content for TAB ONE
+
+tab: TAB TWO
+Tab content for TAB TWO
+
+tab: TAB THREE
+Tab content for TAB THREE
+\`\`\`
+`;
+
+// Function to parse the input and create tabs
+function createTabs(${node.value}) {
+    const tabContainer = document.getElementById('tabs');
+    const contentContainer = document.getElementById('content');
+
+    // Extracting tab definitions from the input
+    const tabDefinitions = input.match(/tab:\s*(.*?)\n(.*?)(?=\ntab:|$)/gs);
+
+    tabDefinitions.forEach((def, index) => {
+        const lines = def.split('\n');
+        const title = lines[0].replace(/tab:\s*/, '').trim(); // Tab title
+        const content = lines.slice(1).join('\n').trim(); // Tab content
+        
+        // Create tab button
+        const button = document.createElement('button');
+        button.innerText = title;
+        button.className = 'tablinks';
+        button.onclick = function(event) {
+            openTab(event, `content${index}`);
+        };
+        tabContainer.appendChild(button);
+
+        // Create tab content div
+        const tabContent = document.createElement('div');
+        tabContent.id = `content${index}`;
+        tabContent.className = 'tabcontent';
+        tabContent.innerHTML = content.replace(/"/g, '').trim(); // Remove quotes from content
+        contentContainer.appendChild(tabContent);
+    });
+
+    // Activate the first tab by default
+    if (tabContainer.children.length > 0) {
+        tabContainer.children[0].click();
+    }
+}
+
+// Function to open a specific tab
+function openTab(evt, contentId) {
+    var i, tabcontent, tablinks;
+
+    // Hide all tab contents
+    tabcontent = document.getElementsByClassName("tabcontent");
+    for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+    }
+
+    // Remove the "active" class from all buttons
+    tablinks = document.getElementsByClassName("tablinks");
+    for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].className = tablinks[i].className.replace(" active", "");
+    }
+
+    // Show the current tab and add an "active" class to the button that opened the tab
+    document.getElementById(contentId).style.display = "block";
+    evt.currentTarget.className += " active";
+}
+
+// Initialize tabs from input
+createTabs(${node.value});
+</script>
+
 </body>
 </html>
 </p>`
