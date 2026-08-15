@@ -1,7 +1,7 @@
 # yaml-language-server: $schema=./quartz/plugins/quartz-plugins.schema.json
 configuration:
   pageTitle: A.I.L
-  pageTitleSuffix: Artist is Lazy
+  pageTitleSuffix: "|Artist is Lazy"
   enableSPA: true
   enablePopovers: true
   analytics:
@@ -137,6 +137,7 @@ plugins:
       position: afterBody
       priority: 50
       display: all
+    options: {}
   - source: "@quartz-community/alias-redirects"
     enabled: true
   - source: "@quartz-community/content-index"
@@ -285,7 +286,7 @@ plugins:
     enabled: true
     order: 50
     options:
-      theme: its-theme.ttrpg-wotc
+      theme: its-theme.ttrpg-pathfinder
 layout:
   groups:
     toolbar:
