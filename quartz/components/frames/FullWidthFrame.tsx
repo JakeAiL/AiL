@@ -19,6 +19,7 @@ export const FullWidthFrame: PageFrame = {
     beforeBody,
     pageBody: Content,
     afterBody,
+    right,
     footer,
   }: PageFrameProps) {
     return (
@@ -43,6 +44,11 @@ export const FullWidthFrame: PageFrame = {
               <BodyComponent {...componentData} />
             ))}
           </div>
+        </div>
+         <div class="right sidebar">
+          {right.map((BodyComponent) => (
+            <BodyComponent {...componentData} />
+          ))}
         </div>
         {footer.map((FooterComponent) => (
           <FooterComponent {...componentData} />
