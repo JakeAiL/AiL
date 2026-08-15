@@ -1,3 +1,46 @@
 @use "./variables.scss" as *;
 
 // put your custom CSS here!
+/*button callout
+by JakeAiL
+*/
+
+/*body*/
+.callout[data-callout="buttontabs"] {
+	background: transparent;
+	margin: 0;
+	padding: 0;
+}
+
+/*hidden element*/
+[data-callout="buttontabs"] > .callout-title {
+  display: none;
+}
+
+/*buttontabs container*/
+[data-callout="buttontabs"] > .callout-content {
+  	background: transparent;
+	display: flex;
+	flex-wrap: wrap;
+	margin-top: 1rem;
+}
+
+/*buttontabs tabs*/
+[data-callout="buttontabs"] > .callout-content > blockquote {
+  	background: linear-gradient(var(--accent),transparent);
+	display: block;
+	width: auto;
+	margin: 4px;
+	border: none;
+	border-radius: 10px 10px 0px 0px;
+	padding: 5px 15px 12px 15px;
+	font-weight: bold;
+	font-size: 1.25em; /* Increase text size */
+	position: relative; /* Required for the fade effect */
+	overflow: hidden; /* Ensures the fade effect stays within bounds */ 
+}
+
+/*hover*/
+[data-callout="buttontabs"] > .callout-content > blockquote:hover {
+	background: linear-gradient(var(--accent2-lite),transparent);
+}
