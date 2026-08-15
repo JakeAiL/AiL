@@ -83,6 +83,7 @@ plugins:
     layout:
       position: right
       priority: 30
+    options: {}
   - source: "@quartz-community/crawl-links"
     enabled: true
     options:
@@ -155,6 +156,7 @@ plugins:
     enabled: true
   - source: "@quartz-community/content-page"
     enabled: true
+    options: {}
   - source: "@quartz-community/folder-page"
     enabled: true
   - source: "@quartz-community/tag-page"
@@ -224,7 +226,7 @@ plugins:
       priority: 5
       condition: not-index
   - source: "@quartz-community/comments"
-    enabled: false
+    enabled: true
     options:
       provider: giscus
       options: {}
@@ -254,23 +256,6 @@ plugins:
     enabled: true
     options: {}
     order: 50
-  - source: "@quartz-community/note-properties"
-    enabled: false
-    options:
-      includeAll: false
-      includedProperties:
-        - description
-        - tags
-        - aliases
-      excludedProperties: []
-      hidePropertiesView: false
-      delimiters: ---
-      language: yaml
-    order: 5
-    layout:
-      position: beforeBody
-      priority: 15
-      display: all
   - source: github:Requiae/quartz-leaflet-bases-plugin
     enabled: true
     options:
