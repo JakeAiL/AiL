@@ -81,7 +81,7 @@ plugins:
     enabled: true
     order: 50
     layout:
-      position: left
+      position: right
       priority: 30
     options: {}
   - source: "@quartz-community/crawl-links"
