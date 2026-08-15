@@ -22,7 +22,6 @@ by JakeAiL
   	background: transparent;
 	display: flex;
 	flex-wrap: wrap;
-	margin-top: 0;
 }
 
 /*buttontabs tabs*/
@@ -32,8 +31,8 @@ by JakeAiL
 	width: auto;
 	margin: 4px;
 	border: none;
-	border-radius: 0px 0px 0px 0px;
-	padding: 0px 0px 0px 0px;
+	border-radius: 10px 10px 0px 0px;
+	padding: 10px 10px 0px 0px;
 	font-weight: bold;
 	font-size: 1.2em; /* Increase text size */
 	position: relative; /* Required for the fade effect */
