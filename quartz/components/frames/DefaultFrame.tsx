@@ -17,17 +17,11 @@ export const DefaultFrame: PageFrame = {
     beforeBody,
     pageBody: Content,
     afterBody,
-    left,
     right,
     footer,
   }: PageFrameProps) {
     return (
       <>
-        <div class="left sidebar">
-          {left.map((BodyComponent) => (
-            <BodyComponent {...componentData} />
-          ))}
-        </div>
         <div class="center">
           <div class="page-header">
             <Header {...componentData}>
