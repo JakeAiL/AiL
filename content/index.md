@@ -1,6 +1,5 @@
 ---
-title: Welcome to Quartz
+publish: true
+created: 15/08/2026 - 02:56 PM
+modified: 15/08/2026 - 02:56 PM
 ---
-
-This is a blank Quartz installation.
-See the [documentation](https://quartz.jzhao.xyz) for how to get started.
