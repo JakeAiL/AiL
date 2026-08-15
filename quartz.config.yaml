@@ -168,20 +168,20 @@ plugins:
     layout:
       position: left
       priority: 50
-  - source: "@quartz-community/search"
-    enabled: true
-    layout:
-      position: right
-      priority: 10
-      group: toolbar
-      groupOptions:
-        grow: true
-    options: {}
   - source: "@quartz-community/graph"
     enabled: false
     layout:
       position: right
+      priority: 10
+    options: {}
+  - source: "@quartz-community/search"
+    enabled: true
+    layout:
+      position: left
       priority: 20
+      group: toolbar
+      groupOptions:
+        grow: true
     options: {}
   - source: "@quartz-community/backlinks"
     enabled: false
@@ -216,6 +216,7 @@ plugins:
       position: left
       priority: 30
       group: toolbar
+    options: {}
   - source: "@quartz-community/reader-mode"
     enabled: true
     layout:
@@ -254,7 +255,7 @@ plugins:
     layout:
       position: left
       priority: 25
-      display: all
+      display: mobile-only
   - source: "@quartz-community/bases-page"
     enabled: true
     options: {}
