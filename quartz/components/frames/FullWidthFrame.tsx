@@ -24,7 +24,7 @@ export const FullWidthFrame: PageFrame = {
   }: PageFrameProps) {
     return (
       <>
-        <div class="center full-width">
+        <div class="center">
           <div class="page-header">
             <Header {...componentData}>
               {header.map((HeaderComponent) => (
