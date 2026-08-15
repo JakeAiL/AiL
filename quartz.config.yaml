@@ -260,7 +260,7 @@ plugins:
     enabled: true
     order: 50
     options:
-      theme: its-theme
+      theme: its-theme.ttrpg-wotc
 layout:
   groups:
     toolbar:
