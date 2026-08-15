@@ -232,14 +232,6 @@ plugins:
       position: left
       priority: 25
       display: mobile-only
-  - source: "@quartz-community/spacer"
-    enabled: true
-    options: {}
-    order: 25
-    layout:
-      position: header
-      priority: 20
-      display: desktop-only
   - source: "@quartz-community/bases-page"
     enabled: true
     options: {}
