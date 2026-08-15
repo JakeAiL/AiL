@@ -159,8 +159,8 @@ plugins:
   - source: "@quartz-community/search"
     enabled: true
     layout:
-      position: header
-      priority: 25
+      position: left
+      priority: 20
       group: toolbar
       groupOptions:
         grow: true
@@ -185,20 +185,20 @@ plugins:
   - source: "@quartz-community/page-title"
     enabled: true
     layout:
-      position: header
+      position: left
       priority: 10
     options: {}
   - source: "@quartz-community/darkmode"
     enabled: true
     layout:
-      position: header
+      position: left
       priority: 30
       group: toolbar
     options: {}
   - source: "@quartz-community/reader-mode"
     enabled: true
     layout:
-      position: header
+      position: left
       priority: 35
       group: toolbar
   - source: "@quartz-community/breadcrumbs"
