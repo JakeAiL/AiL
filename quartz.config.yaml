@@ -153,7 +153,7 @@ plugins:
     enabled: true
     layout:
       position: right
-      priority: 20
+      priority: 15
     options: {}
   - source: "@quartz-community/search"
     enabled: true
@@ -239,14 +239,6 @@ plugins:
     enabled: true
     options:
       enableCopyTool: false
-  - source:
-      name: quartz-themes
-      repo: github:saberzero1/quartz-themes
-      subdir: plugin
-    enabled: true
-    order: 50
-    options:
-      theme: its-theme.ttrpg-pathfinder
   - source: github:quartz-community/note-properties
     enabled: true
     order: 50
