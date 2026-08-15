@@ -154,6 +154,7 @@ plugins:
     layout:
       position: right
       priority: 10
+      display: mobile-only
     options: {}
   - source: "@quartz-community/search"
     enabled: true
