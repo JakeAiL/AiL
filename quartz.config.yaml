@@ -298,7 +298,8 @@ layout:
         beforeBody: []
         left: []
         right: []
-    content: {}
+    content:
+      template: default
     folder:
       exclude:
         - reader-mode
