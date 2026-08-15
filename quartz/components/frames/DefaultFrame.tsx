@@ -17,6 +17,7 @@ export const DefaultFrame: PageFrame = {
     beforeBody,
     pageBody: Content,
     afterBody,
+    left,
     right,
     footer,
   }: PageFrameProps) {
