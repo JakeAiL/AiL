@@ -82,7 +82,7 @@ plugins:
     order: 50
     layout:
       position: right
-      priority: 30
+      priority: 10
     options: {}
   - source: "@quartz-community/crawl-links"
     enabled: true
@@ -102,7 +102,7 @@ plugins:
     order: 85
     options: {}
   - source: "@quartz-community/hard-line-breaks"
-    enabled: false
+    enabled: true
     order: 90
     options: {}
   - source: "@quartz-community/quartz-fonts"
@@ -150,10 +150,10 @@ plugins:
   - source: "@quartz-community/tag-page"
     enabled: true
   - source: "@quartz-community/graph"
-    enabled: false
+    enabled: true
     layout:
       position: right
-      priority: 10
+      priority: 30
     options: {}
   - source: "@quartz-community/search"
     enabled: true
