@@ -82,7 +82,7 @@ plugins:
     order: 50
     layout:
       position: right
-      priority: 10
+      priority: 30
     options: {}
   - source: "@quartz-community/crawl-links"
     enabled: true
@@ -153,7 +153,7 @@ plugins:
     enabled: true
     layout:
       position: right
-      priority: 15
+      priority: 10
     options: {}
   - source: "@quartz-community/search"
     enabled: true
@@ -252,6 +252,14 @@ plugins:
       hidePropertiesView: true
       delimiters: ---
       language: yaml
+  - source:
+      name: quartz-themes
+      repo: github:saberzero1/quartz-themes
+      subdir: plugin
+    enabled: true
+    order: 50
+    options:
+      theme: its-theme.ttrpg-pathfinder-remastered
 layout:
   groups:
     toolbar:
