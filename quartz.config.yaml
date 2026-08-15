@@ -232,7 +232,7 @@ plugins:
       position: left
       priority: 25
       display: mobile-only
-   - source: "@quartz-community/spacer"
+  - source: "@quartz-community/spacer"
     enabled: true
     options: {}
     order: 25
