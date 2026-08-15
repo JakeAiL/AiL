@@ -285,7 +285,7 @@ plugins:
     enabled: true
     order: 50
     options:
-      theme: its-theme.ttrpg-dnd
+      theme: its-theme.ttrpg-wotc
 layout:
   groups:
     toolbar:
@@ -298,7 +298,8 @@ layout:
         beforeBody: []
         left: []
         right: []
-    content: {}
+    content:
+      template: full-width
     folder:
       exclude:
         - reader-mode
