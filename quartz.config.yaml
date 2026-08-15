@@ -100,16 +100,11 @@ plugins:
   - source: "@quartz-community/citations"
     enabled: false
     order: 85
+    options: {}
   - source: "@quartz-community/hard-line-breaks"
     enabled: true
     order: 90
     options: {}
-  - source: "@quartz-community/ox-hugo"
-    enabled: false
-    order: 91
-  - source: "@quartz-community/roam"
-    enabled: false
-    order: 92
   - source: "@quartz-community/quartz-fonts"
     enabled: true
   - source: "@quartz-themes/core"
@@ -120,8 +115,6 @@ plugins:
       mode: both
   - source: "@quartz-community/remove-draft"
     enabled: true
-  - source: "@quartz-community/explicit-publish"
-    enabled: false
   - source: "@quartz-community/unlisted-pages"
     enabled: true
     options: {}
@@ -133,13 +126,6 @@ plugins:
       passwordField: password
       unlistWhenEncrypted: false
       outputPath: static/encryptedContentIndex.json
-  - source: "@quartz-community/stacked-pages"
-    enabled: false
-    layout:
-      position: afterBody
-      priority: 50
-      display: all
-    options: {}
   - source: "@quartz-community/alias-redirects"
     enabled: true
     options: {}
@@ -163,11 +149,6 @@ plugins:
     enabled: true
   - source: "@quartz-community/tag-page"
     enabled: true
-  - source: "@quartz-community/explorer"
-    enabled: false
-    layout:
-      position: left
-      priority: 50
   - source: "@quartz-community/graph"
     enabled: false
     layout:
@@ -183,11 +164,6 @@ plugins:
       groupOptions:
         grow: true
     options: {}
-  - source: "@quartz-community/backlinks"
-    enabled: false
-    layout:
-      position: right
-      priority: 50
   - source: "@quartz-community/article-title"
     enabled: true
     layout:
@@ -246,8 +222,6 @@ plugins:
     layout:
       position: footer
       priority: 50
-  - source: "@quartz-community/recent-notes"
-    enabled: false
   - source: "@quartz-community/spacer"
     enabled: true
     options: {}
@@ -264,13 +238,6 @@ plugins:
     enabled: true
     options:
       enableCopyTool: false
-  - source: "@quartz-community/obsidian-plugin-excalidraw"
-    enabled: true
-    options:
-      enableInteraction: true
-      darkMode: auto
-      exportPadding: 20
-    order: 50
   - source:
       name: quartz-themes
       repo: github:saberzero1/quartz-themes
@@ -280,7 +247,7 @@ plugins:
     options:
       theme: its-theme.ttrpg-pathfinder
   - source: github:quartz-community/note-properties
-    enabled: false
+    enabled: true
     order: 50
     options:
       includeAll: false
@@ -289,7 +256,7 @@ plugins:
         - tags
         - aliases
       excludedProperties: []
-      hidePropertiesView: false
+      hidePropertiesView: true
       delimiters: ---
       language: yaml
 layout:
