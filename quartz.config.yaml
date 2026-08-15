@@ -1,7 +1,7 @@
 # yaml-language-server: $schema=./quartz/plugins/quartz-plugins.schema.json
 configuration:
-  pageTitle: A.I.L
-  pageTitleSuffix: "|Artist is Lazy"
+  pageTitle: Artist is Lazy
+  pageTitleSuffix: " | AiL"
   enableSPA: true
   enablePopovers: true
   analytics:
@@ -169,6 +169,7 @@ plugins:
     layout:
       position: right
       priority: 10
+    options: {}
   - source: "@quartz-community/search"
     enabled: true
     layout:
@@ -248,13 +249,13 @@ plugins:
     layout:
       position: left
       priority: 25
-      display: mobile-only
+      display: all
   - source: "@quartz-community/bases-page"
     enabled: true
     options: {}
     order: 50
   - source: "@quartz-community/note-properties"
-    enabled: true
+    enabled: false
     options:
       includeAll: false
       includedProperties:
