@@ -288,6 +288,10 @@ plugins:
       hidePropertiesView: false
       delimiters: ---
       language: yaml
+  - source: github:quartz-community/page-title
+    enabled: true
+    order: 50
+    options: {}
 layout:
   groups:
     toolbar:
