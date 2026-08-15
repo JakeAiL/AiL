@@ -160,7 +160,7 @@ plugins:
   - source: "@quartz-community/tag-page"
     enabled: true
   - source: "@quartz-community/explorer"
-    enabled: true
+    enabled: false
     layout:
       position: left
       priority: 50
@@ -172,11 +172,12 @@ plugins:
   - source: "@quartz-community/search"
     enabled: true
     layout:
-      position: left
+      position: right
       priority: 20
       group: toolbar
       groupOptions:
         grow: true
+    options: {}
   - source: "@quartz-community/backlinks"
     enabled: true
     layout:
@@ -193,10 +194,11 @@ plugins:
       position: beforeBody
       priority: 20
   - source: "@quartz-community/tag-list"
-    enabled: false
+    enabled: true
     layout:
-      position: beforeBody
+      position: afterBody
       priority: 30
+    options: {}
   - source: "@quartz-community/page-title"
     enabled: true
     layout:
