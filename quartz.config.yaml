@@ -103,6 +103,7 @@ plugins:
   - source: "@quartz-community/hard-line-breaks"
     enabled: true
     order: 90
+    options: {}
   - source: "@quartz-community/ox-hugo"
     enabled: false
     order: 91
@@ -141,6 +142,7 @@ plugins:
     options: {}
   - source: "@quartz-community/alias-redirects"
     enabled: true
+    options: {}
   - source: "@quartz-community/content-index"
     enabled: true
     options:
@@ -166,20 +168,20 @@ plugins:
     layout:
       position: left
       priority: 50
-  - source: "@quartz-community/graph"
-    enabled: true
-    layout:
-      position: right
-      priority: 10
-    options: {}
   - source: "@quartz-community/search"
     enabled: true
     layout:
       position: right
-      priority: 20
+      priority: 10
       group: toolbar
       groupOptions:
         grow: true
+    options: {}
+  - source: "@quartz-community/graph"
+    enabled: true
+    layout:
+      position: right
+      priority: 20
     options: {}
   - source: "@quartz-community/backlinks"
     enabled: true
@@ -207,6 +209,7 @@ plugins:
     layout:
       position: left
       priority: 10
+    options: {}
   - source: "@quartz-community/darkmode"
     enabled: true
     layout:
@@ -226,7 +229,7 @@ plugins:
       priority: 5
       condition: not-index
   - source: "@quartz-community/comments"
-    enabled: true
+    enabled: false
     options:
       provider: giscus
       options: {}
@@ -276,7 +279,7 @@ plugins:
     options:
       theme: its-theme.ttrpg-pathfinder
   - source: github:quartz-community/note-properties
-    enabled: true
+    enabled: false
     order: 50
     options:
       includeAll: false
@@ -288,10 +291,6 @@ plugins:
       hidePropertiesView: false
       delimiters: ---
       language: yaml
-  - source: github:quartz-community/page-title
-    enabled: true
-    order: 50
-    options: {}
   - source: github:quartz-community/reader-mode
     enabled: true
     order: 50
