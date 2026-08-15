@@ -7,7 +7,7 @@ configuration:
   analytics:
     provider: plausible
   locale: en-US
-  baseUrl: JakeAiL.github.io/AiL
+  baseUrl: jakeail.github.io/AiL
   ignorePatterns:
     - private
     - templates
