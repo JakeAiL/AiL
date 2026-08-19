@@ -28,7 +28,7 @@ modified: 19/08/2026 - 11:42 PM
 > > > icon
 > > > Half-God
 > >
-> > > [!recite]
+> > > [!quote|no-t]
 > > > icon
 > > > Fantasyverse
 
