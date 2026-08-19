@@ -5,20 +5,19 @@ created: 15/08/2026 - 02:56 PM
 modified: 19/08/2026 - 07:59 PM
 ---
 
-> [!recite|no-i] # WELCOME TO AIL VAULT
-
-## Social media
-
-Facebook - Twitter - Instagram
+> [!recite|txt-c no-i] **WELCOME TO AIL VAULT**
+> [Facebook](https://www.facebook.com/Jakeail1501) - [Twitter](https://www.instagram.com/artistislazy/) - [Instagram](https://x.com/ArtistIsLazy)
 
 ---
 
-# Series
-
-Song of Hero
-Demonlord Project
-Half-God
-Fantasverse
+> [!column|4 no-i title-center] # **Series**
+> Song of Hero
+>
+> Demonlord Project
+>
+> Half-God
+>
+> Fantasyverse
 
 ---
 
