@@ -6,7 +6,7 @@ modified: 19/08/2026 - 11:42 PM
 ---
 
 > [!recite|txt-c no-i] **WELCOME TO AIL VAULT**
-> [Facebook](https://www.facebook.com/Jakeail1501) - [Twitter](https://www.instagram.com/artistislazy/) - [Instagram](https://x.com/ArtistIsLazy)
+> Social Media - Gallery - Commission
 
 ---
 
@@ -14,51 +14,93 @@ modified: 19/08/2026 - 11:42 PM
 >
 > # **Series**
 >
-> > [!cards|2]
-> > ![Image link|sban htiny ctr](https://images.unsplash.com/photo-1574375927938-d5a98e8ffe85?ixlib=rb-1.2.1\&q=85\&fm=jpg\&crop=entropy\&cs=srgb\&w=1200)
+> > [!cards|4]
+> > icon
 > > **[Song of Hero](Novel/Song%20of%20Hero/Novel%20Info.md)**
 > >
-> > ![Image link|sban htiny ctr](https://images.unsplash.com/photo-1574375927938-d5a98e8ffe85?ixlib=rb-1.2.1\&q=85\&fm=jpg\&crop=entropy\&cs=srgb\&w=1200)
+> > icon
 > > **[Demonlord Project](Novel/Demonlord%20Project/Novel%20Info.md)**
 > >
-> > ![Image link|sban htiny ctr](https://images.unsplash.com/photo-1574375927938-d5a98e8ffe85?ixlib=rb-1.2.1\&q=85\&fm=jpg\&crop=entropy\&cs=srgb\&w=1200)
+> > icon
 > > **[Half-God](Novel/Half-God/Novel%20Info.md)**
 > >
-> > ![Image link|sban htiny ctr](https://images.unsplash.com/photo-1574375927938-d5a98e8ffe85?ixlib=rb-1.2.1\&q=85\&fm=jpg\&crop=entropy\&cs=srgb\&w=1200)
+> > icon
 > > **[Fantasyverse](Novel/Fantasyverse/Novel%20Info.md)**
 
 ---
 
-# Song of Hero Wiki
-
-Archive
-Character
-Bestiary
-Location
-
----
-
-# Demonlord Project Wiki
-
-Archive
-Character
-Bestiary
-Location
-
----
-
-# Half-God Wiki
-
-Archive
-Character
-Bestiary
-Location
+> [!infobox|wfull txt-c no-i]
+>
+> # **Song of Hero Wiki**
+>
+> > [!cards|4]
+> > icon
+> > **Archive**
+> >
+> > icon
+> > **Character**
+> >
+> > icon
+> > **Bestiary**
+> >
+> > icon
+> > **Atlas**
 
 ---
 
-# Fantasverse Wiki
+> [!infobox|wfull txt-c no-i]
+>
+> # **Project Demonlord Wiki**
+>
+> > [!cards|4]
+> > icon
+> > **Archive**
+> >
+> > icon
+> > **Character**
+> >
+> > icon
+> > **Bestiary**
+> >
+> > icon
+> > **Atlas**
 
-Archive
-Character
-Bestiary
-Location
+---
+
+> [!infobox|wfull txt-c no-i]
+>
+> # **Half-God Wiki**
+>
+> > [!cards|4]
+> > icon
+> > **Archive**
+> >
+> > icon
+> > **Character**
+> >
+> > icon
+> > **Bestiary**
+> >
+> > icon
+> > **Atlas**
+
+---
+
+> [!infobox|wfull txt-c no-i]
+>
+> # **Fantasyverse Wiki**
+>
+> > [!cards|4]
+> > icon
+> > **Archive**
+> >
+> > icon
+> > **Character**
+> >
+> > icon
+> > **Bestiary**
+> >
+> > icon
+> > **Atlas**
+
+---
