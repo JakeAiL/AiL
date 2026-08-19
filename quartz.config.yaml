@@ -265,6 +265,15 @@ plugins:
     order: 50
     options:
       theme: its-theme.ttrpg-wotc
+  - source: github:quartz-community/search
+    enabled: true
+    order: 50
+    options:
+      enablePreview: true
+      fieldPriority:
+        - title
+        - content
+        - tags
 layout:
   groups:
     toolbar:
