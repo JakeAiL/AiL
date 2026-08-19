@@ -14,21 +14,21 @@ modified: 19/08/2026 - 07:59 PM
 >
 > # **Series**
 >
-> > [!column|4 txt-c no-t]
+> > [!column|4 no-t]
 > >
-> > > [!blank]
+> > > [!recite|no-t txt-c]
 > > > icon
 > > > Song of Hero
 > >
-> > > [!blank]
+> > > [!recite]
 > > > icon
 > > > Demonlord Project
 > >
-> > > [!blank]
+> > > [!recite]
 > > > icon
 > > > Half-God
 > >
-> > > [!blank]
+> > > [!recite]
 > > > icon
 > > > Fantasyverse
 
