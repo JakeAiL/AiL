@@ -275,7 +275,7 @@ layout:
         left: []
         right: []
     content:
-      template: full-width
+      template: default
     folder:
       exclude:
         - reader-mode
