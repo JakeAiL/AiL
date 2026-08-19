@@ -10,7 +10,8 @@ modified: 19/08/2026 - 07:59 PM
 
 ---
 
-> [!column|4 no-i title-center] # **Series**
+> [!column|4 no-i title-center] **Series**
+>
 > Song of Hero
 >
 > Demonlord Project
