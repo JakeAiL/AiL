@@ -16,7 +16,7 @@ modified: 19/08/2026 - 07:59 PM
 >
 > > [!column|4 no-t]
 > >
-> > > [!recite|no-t txt-c]
+> > > [!info|no-t txt-c]
 > > > icon
 > > > Song of Hero
 > >
@@ -31,6 +31,9 @@ modified: 19/08/2026 - 07:59 PM
 > > > [!recite]
 > > > icon
 > > > Fantasyverse
+
+> [!statblocks]
+> Contents
 
 ---
 
