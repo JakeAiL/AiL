@@ -148,11 +148,11 @@ plugins:
   - source: "@quartz-community/folder-page"
     enabled: true
   - source: "@quartz-community/tag-page"
-    enabled: true
+    enabled: false
   - source: "@quartz-community/graph"
     enabled: true
     layout:
-      position: right
+      position: afterBody
       priority: 50
       display: desktop-only
     options: {}
