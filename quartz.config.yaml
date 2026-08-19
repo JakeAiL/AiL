@@ -274,6 +274,10 @@ plugins:
         - title
         - content
         - tags
+  - source: github:quartz-community/darkmode
+    enabled: true
+    order: 50
+    options: {}
 layout:
   groups:
     toolbar:
