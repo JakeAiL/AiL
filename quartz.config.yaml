@@ -278,6 +278,10 @@ plugins:
     enabled: true
     order: 50
     options: {}
+  - source: github:quartz-community/reader-mode
+    enabled: true
+    order: 50
+    options: {}
 layout:
   groups:
     toolbar:
