@@ -10,15 +10,15 @@ modified: 19/08/2026 - 07:59 PM
 
 ---
 
-> [!column|4 no-i title-center] **Series**
+> [!column|4 title-center] **Series**
 >
-> Song of Hero
+> > [!info] Song of Hero
 >
-> Demonlord Project
+> > [!info] Demonlord Project
 >
-> Half-God
+> > [!info] Half-God
 >
-> Fantasyverse
+> > [!info] Fantasyverse
 
 ---
 
