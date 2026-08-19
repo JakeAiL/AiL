@@ -164,6 +164,7 @@ plugins:
       group: toolbar
       groupOptions:
         grow: true
+      display: desktop-only
     options: {}
   - source: "@quartz-community/article-title"
     enabled: true
@@ -194,6 +195,7 @@ plugins:
       position: right
       priority: 30
       group: toolbar
+      display: desktop-only
     options: {}
   - source: "@quartz-community/reader-mode"
     enabled: true
@@ -201,6 +203,7 @@ plugins:
       position: right
       priority: 35
       group: toolbar
+      display: desktop-only
     options: {}
   - source: "@quartz-community/breadcrumbs"
     enabled: true
