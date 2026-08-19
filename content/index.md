@@ -2,14 +2,13 @@
 publish: true
 title: Homepage
 created: 15/08/2026 - 02:56 PM
-modified: 16/08/2026 - 09:45 AM
+modified: 19/08/2026 - 07:59 PM
 ---
 
+> [!recite] WELCOME TO AIL VAULT
+> introduction
+
 > [!infobox|center]
->
-> # WELCOME TO AIL VAULT
->
-> Introduction
 >
 > ## Social media
 >
