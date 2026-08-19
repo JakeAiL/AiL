@@ -154,7 +154,7 @@ plugins:
     layout:
       position: afterBody
       priority: 50
-      display: desktop-only
+      display: all
     options: {}
   - source: "@quartz-community/search"
     enabled: true
@@ -164,7 +164,7 @@ plugins:
       group: toolbar
       groupOptions:
         grow: true
-      display: desktop-only
+      display: all
     options: {}
   - source: "@quartz-community/article-title"
     enabled: true
@@ -195,7 +195,7 @@ plugins:
       position: right
       priority: 30
       group: toolbar
-      display: desktop-only
+      display: all
     options: {}
   - source: "@quartz-community/reader-mode"
     enabled: true
@@ -203,7 +203,7 @@ plugins:
       position: right
       priority: 35
       group: toolbar
-      display: desktop-only
+      display: all
     options: {}
   - source: "@quartz-community/breadcrumbs"
     enabled: true
@@ -265,23 +265,6 @@ plugins:
     order: 50
     options:
       theme: its-theme.ttrpg-wotc
-  - source: github:quartz-community/search
-    enabled: true
-    order: 50
-    options:
-      enablePreview: true
-      fieldPriority:
-        - title
-        - content
-        - tags
-  - source: github:quartz-community/darkmode
-    enabled: true
-    order: 50
-    options: {}
-  - source: github:quartz-community/reader-mode
-    enabled: true
-    order: 50
-    options: {}
 layout:
   groups:
     toolbar:
