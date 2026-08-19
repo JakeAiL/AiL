@@ -3,6 +3,8 @@ publish: true
 title: HOMEPAGE
 created: 15/08/2026 - 02:56 PM
 modified: 19/08/2026 - 07:59 PM
+cssclasses:
+  - hcl
 ---
 
 > [!recite|txt-c no-i] **WELCOME TO AIL VAULT**
@@ -32,7 +34,7 @@ modified: 19/08/2026 - 07:59 PM
 > > > icon
 > > > Fantasyverse
 
-> [!statblocks]
+> [!statblocks| wfull txt-c]
 > Contents
 
 ---
