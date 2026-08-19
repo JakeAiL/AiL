@@ -3,8 +3,6 @@ publish: true
 title: HOMEPAGE
 created: 15/08/2026 - 02:56 PM
 modified: 19/08/2026 - 11:42 PM
-cssclasses:
-  - illusion
 ---
 
 > [!recite|txt-c no-i] **WELCOME TO AIL VAULT**
@@ -18,15 +16,15 @@ cssclasses:
 >
 > > [!column|4 no-t]
 > >
-> > > [!info|no-t txt-c]
+> > > [!statblocks|]
 > > > icon
 > > > Song of Hero
 > >
-> > > [!recite]
+> > > [!statblocks|bg-c-red]
 > > > icon
 > > > Demonlord Project
 > >
-> > > [!recite]
+> > > [!statblocks|bg-c-plain]
 > > > icon
 > > > Half-God
 > >
@@ -34,7 +32,10 @@ cssclasses:
 > > > icon
 > > > Fantasyverse
 
-> [!statblocks|wfull txt-c]
+> [!statblocks|txt-c bg-c-plain]
+> Contents
+
+> [!statblocks|txt-c bg-c-red]
 > Contents
 
 ---
