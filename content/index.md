@@ -5,18 +5,30 @@ created: 15/08/2026 - 02:56 PM
 modified: 16/08/2026 - 09:45 AM
 ---
 
-# Welcome to AiL Vault
+> [!infobox|center]
+>
+> # WELCOME TO AIL VAULT
+>
+> Introduction
+>
+> ## Social media
+>
+> Facebook - Twitter - Instagram
 
-## Social media
+---
 
-Facebook - Twitter - Instagram
-
-# Series
-
-Song of Hero
-Demonlord Project
-Half-God
-Fantasverse
+> [!infobox|center]
+>
+> # Series
+>
+> > [!cards|4]
+> > Song of Hero
+> >
+> > Demonlord Project
+> >
+> > Half-God
+> >
+> > Fantasverse
 
 # Song of Hero Wiki
 
