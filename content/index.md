@@ -20,7 +20,7 @@ modified: 19/08/2026 - 07:59 PM
 >
 > > [!info] Fantasyverse
 
-> [!infobox|wfull txt-c]
+> [!infobox|wfull txt-c no-i]
 >
 > # Title
 >
