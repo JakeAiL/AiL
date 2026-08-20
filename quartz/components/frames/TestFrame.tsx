@@ -10,7 +10,7 @@ const Header = HeaderConstructor()
  * This is the original Quartz layout, extracted from renderPage.tsx.
  */
 export const TestFrame: PageFrame = {
-  name: "Test",
+  name: "test",
   render({
     componentData,
     header,
