@@ -48,20 +48,3 @@ by JakeAiL
 h1, h2, h3, h4, h5, h6 {
   display: flow-root;
 }
-
-body {
-  .page > #quartz-body {
-    @media all and ($desktop) {
-      display: grid;
-      grid-template-columns: 320px auto;
-      grid-template-rows: auto auto auto;
-      grid-template-areas:
-        "grid-header grid-sidebar-right"
-        "grid-center grid-sidebar-right"
-        "grid-footer grid-sidebar-right";
-      & .sidebar.left {
-        display: none;
-      }
-    }
-  }
-}
