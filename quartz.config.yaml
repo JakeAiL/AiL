@@ -81,7 +81,7 @@ plugins:
     enabled: true
     order: 50
     layout:
-      position: left
+      position: right
       priority: 40
       display: desktop-only
     options: {}
