@@ -54,7 +54,7 @@ body {
   .page > #quartz-body {
     @media all and ($desktop) {
       display: grid;
-      grid-template-columns: 320px auto;
+      grid-template-columns: auto 320px;
       grid-template-rows: auto auto auto;
       grid-template-areas:
         "grid-header grid-sidebar-right"
