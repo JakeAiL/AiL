@@ -280,7 +280,7 @@ layout:
         left: []
         right: []
     content:
-      template: default
+      template: test
     folder:
       exclude:
         - reader-mode
