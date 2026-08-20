@@ -231,7 +231,7 @@ plugins:
       position: footer
       priority: 50
   - source: "@quartz-community/spacer"
-    enabled: false
+    enabled: true
     options: {}
     order: 25
     layout:
@@ -280,7 +280,7 @@ layout:
         left: []
         right: []
     content:
-      template: test
+      template: default
     folder:
       exclude:
         - reader-mode
