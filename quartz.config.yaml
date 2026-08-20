@@ -81,8 +81,9 @@ plugins:
     enabled: true
     order: 50
     layout:
-      position: right
+      position: left
       priority: 40
+      display: desktop-only
     options: {}
   - source: "@quartz-community/crawl-links"
     enabled: true
