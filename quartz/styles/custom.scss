@@ -43,3 +43,8 @@ by JakeAiL
 [data-callout="buttontabs"] > .callout-content > blockquote:hover {
 	background: linear-gradient(var(--accent2-lite),transparent);
 }
+
+/* Infobox callout fix 1: Prevent heading underlines from bleeding into floated infoboxes */
+h1, h2, h3, h4, h5, h6 {
+  display: flow-root;
+}
