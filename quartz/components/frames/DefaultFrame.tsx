@@ -23,6 +23,11 @@ export const DefaultFrame: PageFrame = {
   }: PageFrameProps) {
     return (
       <>
+        <div class="left sidebar">
+          {left.map((BodyComponent) => (
+            <BodyComponent {...componentData} />
+          ))}
+        </div>
         <div class="center">
           <div class="page-header">
             <Header {...componentData}>
