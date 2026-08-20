@@ -112,7 +112,7 @@ plugins:
     enabled: true
     options:
       theme: its-theme
-      variation: ttrpg-dnd
+      variation: ttrpg-wotc
       mode: both
   - source: "@quartz-community/remove-draft"
     enabled: true
@@ -259,14 +259,7 @@ plugins:
       hidePropertiesView: true
       delimiters: ---
       language: yaml
-  - source:
-      name: quartz-themes
-      repo: github:saberzero1/quartz-themes
-      subdir: plugin
-    enabled: true
-    order: 50
-    options:
-      theme: its-theme.ttrpg-wotc
+      
 layout:
   groups:
     toolbar:
