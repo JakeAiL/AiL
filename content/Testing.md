@@ -6,14 +6,14 @@ cssclasses:
   - clear-hr
 ---
 
-> [!grid|left wmed]
+> [!grid|left bg-plain]
 > ![](post/game/gwent/gwe1.png)
 >
 > ![](post/game/gwent/gwe2.png)
 >
 > ![](post/game/gwent/gwe3.png)
 
-> [!infobox]
+> [!infobox| no-i]
 >
 > # **Gwent**
 >
