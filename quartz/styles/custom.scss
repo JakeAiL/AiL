@@ -5,6 +5,16 @@
 by JakeAiL
 */
 
+/fading heading lines - colour/
+h1::after,
+h2::after,
+h3::after,
+h4::after,
+h5::after,
+h6::after {
+  background-image: linear-gradient(to right, #c93c3c, transparent);
+}
+
 /*body*/
 .callout[data-callout="buttontabs"] {
 	background: transparent;
