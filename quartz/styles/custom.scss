@@ -11,6 +11,7 @@ h3::after,
 h4::after,
 h5::after,
 h6::after {
+	display: none;
   background-image: linear-gradient(to right, #c93c3c, transparent);
 }
 
